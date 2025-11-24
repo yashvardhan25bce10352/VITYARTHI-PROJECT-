@@ -1,0 +1,41 @@
+# Project Report  
+**Title:** Playlist Manager – Console Based Application  
+**Submitted by:** YASHVARDAN SINGH TANWAR    
+**Class / Batch:** 2025-2029
+**Date of Submission:** November 24, 2025  
+
+## 1. Introduction  
+The Playlist Manager is a Python-based console application designed to help users maintain a personal music playlist. It provides essential CRUD (Create, Read, Update, Delete) operations in a simple and intuitive menu-driven interface.
+
+## 2. Objectives  
+- To implement file handling using CSV  
+- To create a persistent data storage system  
+- To develop a user-friendly menu-driven program  
+- To practice error handling and input validation  
+- To build a practical utility tool using only built-in Python modules  
+
+## 3. Features  
+| Feature                  | Description                                      |
+|--------------------------|--------------------------------------------------|
+| Add Song                 | Adds a new song (prevents duplicates)            |
+| Remove Song              | Removes exact song name                          |
+| View Playlist            | Displays numbered list of all songs              |
+| Search Song              | Partial & case-insensitive search                |
+| Clear Playlist           | Deletes all songs after confirmation            |
+| Auto Save/Load           | Uses playlist.csv for persistence                |
+
+## 4. Technology Used  
+- **Language:** Python 3.x  
+- **Modules:** csv (built-in)  
+- **File Format:** CSV (human-readable & editable)  
+- **IDE/Editor:** Any (VS Code, PyCharm, IDLE, etc.)  
+
+## 5. System Requirements  
+- Python 3.8 or above  
+- Operating System: Windows / macOS / Linux  
+- Storage: < 10 KB  
+
+## 6. How to Execute  
+1. Save the code as `playlist_manager.py`  
+2. Open terminal/command prompt  
+3. Run: `python playlist_manager.py`  
